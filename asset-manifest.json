@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.5a65c717.css",
-    "main.js": "/static/js/main.064eb91a.js",
-    "index.html": "/index.html",
-    "main.5a65c717.css.map": "/static/css/main.5a65c717.css.map",
-    "main.064eb91a.js.map": "/static/js/main.064eb91a.js.map"
+    "main.css": "/c964-wgu-compsci-capstone/static/css/main.5a65c717.css",
+    "main.js": "/c964-wgu-compsci-capstone/static/js/main.ff19470b.js",
+    "index.html": "/c964-wgu-compsci-capstone/index.html",
+    "main.5a65c717.css.map": "/c964-wgu-compsci-capstone/static/css/main.5a65c717.css.map",
+    "main.ff19470b.js.map": "/c964-wgu-compsci-capstone/static/js/main.ff19470b.js.map"
   },
   "entrypoints": [
     "static/css/main.5a65c717.css",
-    "static/js/main.064eb91a.js"
+    "static/js/main.ff19470b.js"
   ]
 }
