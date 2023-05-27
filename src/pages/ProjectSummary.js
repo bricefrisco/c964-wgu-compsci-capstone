@@ -52,12 +52,15 @@ const ProjectSummary = () => {
       <Paragraph>
         The source code that was written to build and train the model can be
         found on{" "}
-        <ExternalLink to="https://www.google.com/todo">
+        <ExternalLink to="https://colab.research.google.com/drive/1lQo5bGOOHYLgjLWzObR3c6CZlwlc5iNp">
           Google Colab
         </ExternalLink>
         . This website was build using ReactJS and TailwindCSS, the source code
         can be found on{" "}
-        <ExternalLink to="https://www.github.com/TODO">GitHub</ExternalLink>.
+        <ExternalLink to="https://github.com/bricefrisco/c964-wgu-compsci-capstone">
+          GitHub
+        </ExternalLink>
+        .
       </Paragraph>
 
       <Paragraph>
