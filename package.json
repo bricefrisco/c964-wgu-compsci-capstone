@@ -2,6 +2,7 @@
   "name": "c964-capstone",
   "author": "Brice Frisco",
   "version": "0.1.0",
+  "homepage": "https://bricefrisco.github.io/c964-wgu-compsci-capstone/",
   "private": true,
   "dependencies": {
     "@tensorflow/tfjs": "^4.6.0",
@@ -19,6 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
