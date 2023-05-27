@@ -95,7 +95,7 @@ const TrainingAndAccuracy = () => {
         className="mb-6"
         width="450px"
         height="auto"
-        src="/images/training_accuracy.png"
+        src={`${process.env.PUBLIC_URL}/images/training_accuracy.png`}
         alt="Training accuracy"
       />
 
@@ -121,7 +121,7 @@ const TrainingAndAccuracy = () => {
         className="mb-6"
         width="450px"
         height="auto"
-        src="/images/confusion_matrix.png"
+        src={`${process.env.PUBLIC_URL}/images/confusion_matrix.png`}
         alt="Confusion matrix"
       />
 

@@ -28,7 +28,7 @@ const DataAnalysis = () => {
         className="mb-6"
         width="450px"
         height="auto"
-        src="/images/sentiment_distribution.png"
+        src={`${process.env.PUBLIC_URL}/images/sentiment_distribution.png`}
         alt="Bar Chart Showing the Distribution of Positive and Negative
           Sentiments"
       />
@@ -43,14 +43,14 @@ const DataAnalysis = () => {
       <div className="flex flex-wrap w-full mb-6">
         <img
           className="w-full max-w-[375px]"
-          src="/images/negative_word_cloud.png"
+          src={`${process.env.PUBLIC_URL}/images/negative_word_cloud.png`}
           alt="Negative word cloud"
         />
 
         <img
           className="w-full max-w-[375px]"
           height="auto"
-          src="/images/positive_word_cloud.png"
+          src={`${process.env.PUBLIC_URL}/images/positive_word_cloud.png`}
           alt="Positive word cloud"
         />
       </div>

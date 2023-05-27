@@ -9,14 +9,16 @@ const useSentimentAnalysis = () => {
 
   const loadTokenizer = async () => {
     const tokenizer = new Tokenizer();
-    await tokenizer.load("/tokenizer/word_index.json");
+    await tokenizer.load(`${process.env.PUBLIC_URL}/tokenizer/word_index.json`);
     console.log("Tokenizer loaded.");
     setTokenizer(tokenizer);
     return tokenizer;
   };
 
   const loadModel = async () => {
-    const model = await tf.loadGraphModel("/model/model.json");
+    const model = await tf.loadGraphModel(
+      `${process.env.PUBLIC_URL}/model/model.json`
+    );
     setModel(model);
     console.log("Model loaded.");
     return model;

@@ -57,7 +57,7 @@ const ProjectSummary = () => {
         </ExternalLink>
         . This website was build using ReactJS and TailwindCSS, the source code
         can be found on{" "}
-        <ExternalLink to="https://www.github.com/TODO">Github</ExternalLink>
+        <ExternalLink to="https://www.github.com/TODO">GitHub</ExternalLink>.
       </Paragraph>
 
       <Paragraph>
