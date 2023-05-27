@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/c964-wgu-compsci-capstone/static/css/main.3d9e1070.css",
+    "main.js": "/c964-wgu-compsci-capstone/static/js/main.35c5abe9.js",
+    "index.html": "/c964-wgu-compsci-capstone/index.html",
+    "main.3d9e1070.css.map": "/c964-wgu-compsci-capstone/static/css/main.3d9e1070.css.map",
+    "main.35c5abe9.js.map": "/c964-wgu-compsci-capstone/static/js/main.35c5abe9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d9e1070.css",
+    "static/js/main.35c5abe9.js"
+  ]
+}
