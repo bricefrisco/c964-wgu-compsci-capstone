@@ -6,7 +6,7 @@ const Section = ({ children }) => {
   return <div className="w-full mb-6">{children}</div>;
 };
 
-const NavItem = ({ to, selected, children, onClick }) => {
+const NavItem = ({ to, selected, highlighted, children, onClick }) => {
   return (
     <Link
       to={to}
@@ -14,7 +14,9 @@ const NavItem = ({ to, selected, children, onClick }) => {
       className={`text-sm p-2 rounded block ${
         selected
           ? "font-extrabold text-blue-500 bg-blue-50"
-          : "text-gray-500 hover:bg-gray-100 font-medium"
+          : `${
+              highlighted ? "text-purple-700" : "text-gray-500"
+            } hover:bg-gray-100 font-medium`
       }`}
     >
       {children}
@@ -47,6 +49,7 @@ const Navigation = ({ mobileMenuShown, setMobileMenuShown }) => {
               key={page.path}
               to={page.path}
               selected={location.pathname === page.path}
+              highlighted={page.highlighted}
               onClick={() => setMobileMenuShown(false)}
             >
               {page.title}
@@ -64,6 +67,7 @@ const Navigation = ({ mobileMenuShown, setMobileMenuShown }) => {
                 key={page.path}
                 to={page.path}
                 selected={location.pathname === page.path}
+                highlighted={page.highlighted}
                 onClick={() => setMobileMenuShown(false)}
               >
                 {page.title}

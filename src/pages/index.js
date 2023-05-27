@@ -65,9 +65,10 @@ const pages = [
     category: categories[2],
   },
   {
-    title: "Interactive demo",
+    title: "★ Interactive demo",
     path: "/interactive-demo",
     component: InteractiveDemo,
+    highlighted: true,
     category: categories[2],
   },
   {
