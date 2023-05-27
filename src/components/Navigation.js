@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import pages, { categories } from "../pages";
-import { motion } from "framer-motion";
 
 const Section = ({ children }) => {
   return <div className="w-full mb-6">{children}</div>;
