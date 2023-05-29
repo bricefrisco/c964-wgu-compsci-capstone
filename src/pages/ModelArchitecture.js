@@ -49,7 +49,7 @@ model.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=Tru
         application.
       </Paragraph>
 
-      <InfoAlert title="Tensorflow and Keras">
+      <InfoAlert title="TensorFlow and Keras">
         <ExternalLink to="https://www.tensorflow.org/">TensorFlow</ExternalLink>{" "}
         is an open-source machine learning framework developed by Google. It is
         designed to provide a scalable and versatile platform for machine
@@ -83,8 +83,8 @@ model.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=Tru
       <Paragraph>
         2. <span className="font-semibold">LSTM Layer:</span> The Long
         Short-Term Memory layer is like a special type of brain cell that can
-        remember information for longer periods of time. This layer uses 100
-        units, which you can think of as 100 such brain cells working together.
+        remember information for longer periods. This layer uses 100 units,
+        which you can think of as 100 such brain cells working together.
       </Paragraph>
 
       <Paragraph>
@@ -144,7 +144,7 @@ model.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=Tru
         optimization of stochastic objective functions. I've set a learning rate
         of 0.0001. The learning rate determines the speed at which the optimizer
         travels through the "loss landscape". A smaller learning rate means the
-        optimizer takes smaller steps, which can lead to more precise findings,
+        optimizer takes smaller steps, which can lead to more precise findings
         but can also slow down the training process.
       </Paragraph>
 
@@ -166,7 +166,7 @@ model.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=Tru
         generalizes well to unseen data. Lastly, I use
         SparseCategoricalCrossentropy as the loss function because this is a
         multiclass classification problem: categorizing texts into positive or
-        negative sentiment.
+        negative sentiments.
       </Paragraph>
       <Paragraph>
         This lightweight yet effective structure is a great fit for sentiment

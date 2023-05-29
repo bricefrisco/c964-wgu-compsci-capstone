@@ -30,8 +30,8 @@ const DataPreprocessing = () => {
         </span>{" "}
         I've made use of the Keras preprocessing classes Tokenizer and Sequence
         to transform the text data into a suitable format for the model. These
-        classes streamline the process of converting raw text into an input for
-        the model.
+        classes streamline the process of converting raw text into input for the
+        model.
       </Paragraph>
 
       <InfoAlert title="Open-source preprocessors">

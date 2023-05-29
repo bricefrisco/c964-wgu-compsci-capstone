@@ -43,8 +43,8 @@ const InteractiveDemo = () => {
           the machine learning model is embedded directly into the web page
         </span>{" "}
         itself, eliminating the need for a separate back-end server. This means
-        that the sentiment analysis is performed locally within the your
-        browser, ensuring fast response times and maintaining privacy.
+        that the sentiment analysis is performed locally within your browser,
+        ensuring fast response times and maintaining privacy.
       </Paragraph>
 
       <form className="mb-6" onSubmit={handleSubmit}>
@@ -68,7 +68,7 @@ const InteractiveDemo = () => {
 
       {!prediction && !loading && (
         <Paragraph>
-          Try inputting some text in the field above to see the machine learning
+          Try inputting some text in the field above to see the machine-learning
           model in action!
         </Paragraph>
       )}

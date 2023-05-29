@@ -39,7 +39,7 @@ const ProblemProposal = () => {
           <span className="font-semibold">
             Evaluating Customer Service Performance.
           </span>{" "}
-          The company is keen to understand the effectiveness of their customer
+          The company is keen to understand the effectiveness of its customer
           service. They would like to measure customer satisfaction and identify
           areas of service that may need improvement.
         </ListItem>
@@ -48,14 +48,14 @@ const ProblemProposal = () => {
       <Paragraph>
         However, manually analyzing each chat for this purpose is time-consuming
         and resource-intensive. PestFree Solutions requires a more efficient
-        solution to process and extract valuable insights from the live chat
+        solution to process and extract valuable insights from live chat
         interactions.
       </Paragraph>
 
       <Paragraph>
         In summary, PestFree Solutions seeks to leverage its existing data
         source—the live chat application—to better understand customer concerns
-        and evaluate their customer service performance. The challenge lies in
+        and evaluate its customer service performance. The challenge lies in
         finding a scalable and efficient method to extract these insights from
         the chat data.
       </Paragraph>

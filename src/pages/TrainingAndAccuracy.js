@@ -61,8 +61,8 @@ const TrainingAndAccuracy = () => {
       </div>
 
       <Paragraph>
-        Here, `model.fit` is used function to train the model. The `train_ds`
-        and `val_ds` are the training and validation datasets, respectively. The
+        Here, `model.fit` is used to train the model. The `train_ds` and
+        `val_ds` are the training and validation datasets, respectively. The
         model is trained for 3 epochs, which means the model will go through the
         entire training dataset 3 times. During training, two additional
         features were used:
@@ -100,7 +100,7 @@ const TrainingAndAccuracy = () => {
       />
 
       <Paragraph>
-        As the training progresses, the accuracy improves. At the beginning, the
+        As the training progresses, the accuracy improves. In the beginning, the
         accuracy and loss start out around 50% since this is a binary
         classification. However, after being trained on approximately 125,000
         batches (equivalent to three epochs at 40,000 batches each), the

@@ -6,7 +6,7 @@ import UnorderedList from "../components/UnorderedList";
 const SolutionProposal = () => {
   return (
     <Page
-      title="Maching learning solution"
+      title="Machine learning solution"
       meta="Proposing a machine learning solution for PestFree Solutions"
     >
       <Paragraph>
@@ -22,7 +22,7 @@ const SolutionProposal = () => {
           <span className="font-semibold">
             Understanding Customer Concerns.{" "}
           </span>{" "}
-          By analyzing the sentiment within the chat logs, common concerns and
+          By analyzing the sentiment within the chat logs, common concerns, and
           issues can be highlighted. This information will be invaluable in
           understanding and addressing customers' needs and issues more
           effectively and promptly.
@@ -42,7 +42,7 @@ const SolutionProposal = () => {
 
       <Paragraph>
         Implementing a Sentiment Analysis model offers a scalable and efficient
-        method to process the large volumes of chat data. The model can
+        method to process large volumes of chat data. The model can
         automatically analyze and classify chat logs into different sentiment
         categories, such as positive, negative, or neutral. This automated
         process eliminates the need for manual review, thereby saving time and
@@ -50,9 +50,9 @@ const SolutionProposal = () => {
       </Paragraph>
 
       <Paragraph>
-        In conclusion, the proposed solution involves developing a machine
-        learning model capable of performing Sentiment Analysis on the chat
-        data. By doing so, PestFree Solutions can uncover valuable insights
+        In conclusion, the proposed solution involves developing a
+        machine-learning model capable of performing Sentiment Analysis on the
+        chat data. By doing so, PestFree Solutions can uncover valuable insights
         about customer concerns and the effectiveness of their customer service,
         thus paving the way for strategic improvements and enhanced customer
         satisfaction.

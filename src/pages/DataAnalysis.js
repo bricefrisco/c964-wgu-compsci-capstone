@@ -9,7 +9,7 @@ const DataAnalysis = () => {
     <Page title="Data analysis" meta="Deep dive into the dataset">
       <InfoAlert title="Image generation">
         The images displayed in this section were generated against the
-        Sentiment140 dataset using Python code. This python code is available in
+        Sentiment140 dataset using Python code. This Python code is available in
         Google Colab and can be accessed using the links in the{" "}
         <InternalLink to="/project-summary">project summary</InternalLink>.
       </InfoAlert>
@@ -68,8 +68,8 @@ const DataAnalysis = () => {
           negative word clouds.
         </span>{" "}
         This emphasizes the importance of context in sentiment analysis. For
-        instance, 'today' in "Today is a good day" carries a positive sentiment,
-        while in "Today is a terrible day", it is associated with a negative
+        instance, 'Today' in "Today is a good day" carries a positive sentiment,
+        while "Today is a terrible day", is associated with a negative
         sentiment.
       </Paragraph>
 

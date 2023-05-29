@@ -22,7 +22,7 @@ const ProjectSummary = () => {
         results in predicting sentiment in short sequences of text. By analyzing
         the sentiment within chat logs, recurring problems can be identified,
         and areas for improvement in customer service can be highlighted. The
-        model achieved a solid accuracy on the test set, demonstrating its
+        model achieved good accuracy on the test set, demonstrating its
         effectiveness in classifying sentiments.
       </Paragraph>
 
@@ -55,7 +55,7 @@ const ProjectSummary = () => {
         <ExternalLink to="https://colab.research.google.com/drive/1lQo5bGOOHYLgjLWzObR3c6CZlwlc5iNp">
           Google Colab
         </ExternalLink>
-        . This website was build using ReactJS and TailwindCSS, the source code
+        . This website was built using ReactJS and TailwindCSS, the source code
         can be found on{" "}
         <ExternalLink to="https://github.com/bricefrisco/c964-wgu-compsci-capstone">
           GitHub
